@@ -237,6 +237,7 @@ p {
 }
 .card {
   background-color: var(--color-white);
+  color: #000000;
   padding: 2.5rem 2rem;
   border: 1px solid rgba(212, 175, 55, 0.15);
   box-shadow: var(--shadow-subtle);
