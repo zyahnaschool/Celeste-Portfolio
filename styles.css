@@ -249,7 +249,7 @@ p {
   transition: var(--transition-smooth);
 }
 
-/* Give card titles inside the light section a touch of gold */
+/* Make card titles inside "Meet the creative" gold */
 #experience .card h3 {
   color: var(--color-gold);
 }
