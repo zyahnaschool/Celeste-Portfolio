@@ -94,10 +94,15 @@ p {
   color: #B3B3B3;
 }
 .bg-black h1, 
-.bg-black h2, 
 .bg-black h3 {
   color: var(--color-white);
 }
+
+/* Make the section heading for Meet the Creative gold */
+#experience.bg-black h2 {
+  color: var(--color-gold);
+}
+
 /* =================================================================
    5. NAVIGATION BAR
    ================================================================ */
@@ -243,6 +248,22 @@ p {
   box-shadow: var(--shadow-subtle);
   transition: var(--transition-smooth);
 }
+
+/* Updated card styling specifically tailored for the dark section */
+.bg-black .card {
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  color: var(--color-cream);
+}
+
+.bg-black .card h3 {
+  color: var(--color-gold);
+}
+
+.bg-black .card p {
+  color: #B3B3B3;
+}
+
 .card:hover {
   transform: translateY(-5px);
   border-color: var(--color-gold);
