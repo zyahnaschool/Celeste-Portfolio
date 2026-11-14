@@ -98,6 +98,11 @@ p {
   color: var(--color-white);
 }
 
+/* Style the section heading for Meet the Creative to be gold on cream */
+#experience h2 {
+  color: var(--color-gold);
+}
+
 /* =================================================================
    5. NAVIGATION BAR
    ================================================================ */
@@ -243,6 +248,12 @@ p {
   box-shadow: var(--shadow-subtle);
   transition: var(--transition-smooth);
 }
+
+/* Give card titles inside the light section a touch of gold */
+#experience .card h3 {
+  color: var(--color-gold);
+}
+
 .card:hover {
   transform: translateY(-5px);
   border-color: var(--color-gold);
